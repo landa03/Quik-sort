@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace Quik_sort
+namespace Binari_serch
 {
     class Program
     {
@@ -15,9 +15,9 @@ namespace Quik_sort
         {
             numMid = Math.Round(numMax/2);
             System.Console.WriteLine(numMid);
-            QuikSort();
+            Binari_serch();
         }
-        static void QuikSort()
+        static void Binari_serch()
         {   
             if (numMid > numSelec)
             {
@@ -28,7 +28,7 @@ namespace Quik_sort
             {
                 numMid =(numMid+(numMid/2));
                 System.Console.WriteLine(numMid);
-                QuikSort();
+                Binari_serch();
             }
             else
             {

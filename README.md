@@ -1,2 +1,2 @@
-# Quik-sort
-es un Quik sort inefisiente. No lo recomiendo
+# Binari_serch
+es un Binari_serch inefisiente. No lo recomiendo
